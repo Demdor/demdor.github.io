@@ -19,6 +19,23 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
+.pictures {
+    color: blanchedalmond;
+    height: 5vh;
+    background-image: url(https://artsandculture.google.com/asset/0gHwLtcVNegmwQ);
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+    place-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+
 .content {
     color: blanchedalmond;
     height: 100vh;
@@ -29,10 +46,16 @@ h1 {
     display: grid;
     text-align: center;
     place-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    
 
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 /* navigation */
 
