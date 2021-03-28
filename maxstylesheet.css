@@ -44,8 +44,7 @@ h2 {
 
 .content {
 
-    font-size: px;
-    padding-top:5ex;
+    padding-top:15ex;
     color: blanchedalmond;
     background-color: #333;
     background-blend-mode: multiply;
@@ -172,7 +171,8 @@ nav a:hover {
 
 /*desktop settings */
 
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 1200px) {
     .nav-toggle-label {
       display: none;
     }
@@ -207,9 +207,10 @@ nav a:hover {
     
     .content p
     {
-        margin-left: 150px;
-        margin-right: 150px;
-        font-size: 25px;
+        padding-left: 300px;
+        padding-right: 300px;
+        position: static;
+        font-size: px;
         text-align: justify;
     }
     
