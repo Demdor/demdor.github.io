@@ -1,6 +1,9 @@
 
+
+
+
 :root {
-    --background:#3dcfc2;
+    --background:rgb(65, 61, 55);
 }
 
 *, *::before, *::after{
@@ -18,28 +21,27 @@ h1 {
     font-family: ocr-a-std, monospace;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
-.pictures {
-    color: blanchedalmond;
-    height: 5vh;
-    background-image: url(https://artsandculture.google.com/asset/0gHwLtcVNegmwQ);
-    background-color: #333;
-    background-blend-mode: multiply;
-    background-size: cover;
-    text-align: center;
-    place-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
-
+h2 {
+    margin: 0;
+    padding: 0;
 }
 
 
 
+/* content settings */
+
+.titel 
+ {
+     padding: 0;
+     margin: 0;
+ }
 .content {
     color: blanchedalmond;
     height: 100vh;
-    background-image: url(https://artsandculture.google.com/asset/0gHwLtcVNegmwQ);
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
@@ -49,16 +51,8 @@ h1 {
 
 }
 
-.content h2 {
-    font-size: 23px;
-}
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
 
 /* navigation */
 
@@ -68,6 +62,7 @@ header {
     position: fixed;
     z-index: 999;
     width: 100%;
+    color: rgb(255, 235, 205);
 }
 
 .nav-toggle {
@@ -133,10 +128,10 @@ nav li {
 }
 
 nav a {
-    font-family: monospace;
+    font-family: ocr-a-std, monospace;
     color: blanchedalmond;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out ;
@@ -155,6 +150,8 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+/*mobile */
+
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
       display: none;
@@ -167,7 +164,6 @@ nav a:hover {
 
     .logo {
         grid-column: 2 / 3;
-        font-size: 5px;
     }
 
     nav{
