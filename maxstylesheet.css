@@ -45,9 +45,12 @@ h1 {
     background-size: cover;
     display: grid;
     text-align: center;
-    place-items: center;
-    
+    place-items: center;    
 
+}
+
+.content h2 {
+    font-size: 25px;
 }
 
 .center {
@@ -217,6 +220,6 @@ nav a:hover {
     .content
     {
     margin-left: 500px;
-    margin-right: 5px;
+    margin-right: 500px;
     }
 }
