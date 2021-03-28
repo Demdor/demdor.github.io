@@ -32,6 +32,8 @@ h2 {
 
 
 
+/* Portfolio */
+
 /* content settings */
 
 .titel 
@@ -39,19 +41,37 @@ h2 {
      padding: 0;
      margin: 0;
  }
+
 .content {
+
+    font-size: px;
+    padding-top:5ex;
     color: blanchedalmond;
-    height: 100vh;
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
     display: grid;
-    text-align: center;
-    place-items: center;    
+    text-align: left;
+    place-items: left;    
 
 }
 
+.content-text{
+    padding: 6ex;
+}
+.content h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-top: 2em;
+}
 
+.content p
+{
+    font-size: 25px;
+    text-align: justify;
+}
 
 
 /* navigation */
@@ -150,7 +170,7 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-/*mobile */
+/*desktop settings */
 
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
@@ -161,6 +181,40 @@ nav a:hover {
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
     }
+
+    .content {
+        padding:20ex;
+        color: blanchedalmond;
+        background-color: #333;
+        background-blend-mode: multiply;
+        background-size: cover;
+        display: grid;
+        text-align: center;
+        place-items: center;    
+    
+    }
+    
+    .content-text{
+        padding: 6ex;
+    }
+    .content h1
+    {
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: 600;   
+        margin-top: 2em;
+    }
+    
+    .content p
+    {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 25px;
+        text-align: justify;
+    }
+    
+
+
 
     .logo {
         grid-column: 2 / 3;
@@ -214,9 +268,7 @@ nav a:hover {
     nav a:hover::before {
         transform: scale(1,1);
     }
-    .content
-    {
-    margin-left: 500px;
-    margin-right: 500px;
-    }
+
+
+
 }
