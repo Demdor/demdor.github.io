@@ -239,7 +239,7 @@ body {
   }
   
   .main__content h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     background-color: #099bb4;
     background-image: linear-gradient(to top, #d3c19062 0%, #a7a6a6 100%);
     background-size: 100%;
@@ -263,8 +263,19 @@ body {
     height: 100%;
   }
 
+  video {
+    width: 100%;
+    height: 100%;
+  }
+
+  iframe{
+   
+    position:absolute;
+    z-index: 9999;
+}
+
   .main__content h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 10px;
     background-color: #fffaf9;
     background-image: linear-gradient(-20deg, #272727 0%, #21d4fd 100%);
@@ -277,8 +288,9 @@ body {
   
   .main__content p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
+    line-height: 1.4;
     color: rgb(36, 75, 133);
   }
  
