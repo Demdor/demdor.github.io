@@ -4,53 +4,60 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
- 	 <link rel="stylesheet" href="https://use.typekit.net/tbi7aty.css">
-  	<link rel="stylesheet" href="maxstylesheet.css">
+	<title>Portfolio Max</title>
+	<link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.typekit.net/tbi7aty.css">
+
+
 </head>
 
-    
-
-<header>
-	<h1 class="logo">Max Jacobs</h1>
-	<input type="checkbox" id="nav-toggle" class="nav-toggle">
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	
-	</nav>
-	<label for="nav-toggle" class="nav-toggle-label">
-		<span></span>
-	</label>
-	
-</header>
-
-
-
-
-
-
-
 <body>
-    <div class="content">
-        <div class="content-text">
-            <iframe width="1040" height="630" src="https://www.youtube.com/embed/W_Ijrfro55M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <h1>Identification</h1>
-        <p>I made this work in december 2020. Its a visualization of the struggle we go through life being forced to act and do in a specific way. Or otherwise You are deemed not normal.
-            Society has norms and I dont believe in norms. I think they are meant to be seen as a guideline. But not as the word states the norm.
-        </p>
-        
+	<nav class="navbar">
+		<div class="navbar__container">
 
-      </div>
-    
-      
-    </div>
-      
-      
-    </body>
+			<div class="card">
+				<img src="images/hover.png" alt="Card Back">
+			</div>
+
+			<div class="navbar__toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar__menu">
+				<li class="navbar__item">
+					<a href="/" class="navbar__links"> Home</a>
+				</li>
+				<li class="navbar__item">
+					<a href="portfolio.html" class="navbar__links"> Portfolio</a>
+				</li>
+				<li class="navbar__item">
+					<a href="/" class="navbar__links"> Contact</a>
+				</li>
+				<li class="navbar__btn">
+					<a href="/" class="button"> Sign Up</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--Hero Section-->
+	<div class="main">
+		<div class="main__container">
+			  	<div class="main__content">
+					  <h1>Work 1</h1>
+					  <h2>Made this in blabla test test </h2>
+					  <p>https://www.instagram.com/max.kasper.jacobs/</p>
+					  <button class="main__btn"><a href="/">Get Started</a></button>
+				</div>
+				<div class="main__img--container">
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+		<canvas class="background"></canvas>
+		<script src="particles.min.js"></script>
+	</body>
 </html>
